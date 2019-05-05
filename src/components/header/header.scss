@@ -1,0 +1,44 @@
+.header {
+    margin-top: .5rem;
+    padding-left: 10px;
+    align-items: center;
+}
+
+h1 {
+    @media (max-width: 767.98px) {
+        font-size: 2rem;
+    }
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.nav {
+    margin-left: 5rem;
+
+    @media (max-width: 767.98px) {
+        margin-left: 3rem;
+    }
+}
+
+.nav__item {
+    margin-right: 1rem;
+}
+
+.nav__link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3CB371;
+
+    @media (max-width: 767.98px) {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+.nav__link:hover {
+    color: lighten( #3CB371, 20%);
+    text-shadow: 0 2px 5px rgba(green, 1);
+}
